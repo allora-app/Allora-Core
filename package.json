@@ -2,6 +2,7 @@
   "name": "allora-core",
   "version": "0.0.1",
   "private": true,
+  "main": "src/index.js",
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier --write --bracket-spacing --single-quote --no-jsx-bracket-same-line --trailing-comma all --print-width 80 \"src/**/!(third_party)/*.js\""
