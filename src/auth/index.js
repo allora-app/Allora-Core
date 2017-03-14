@@ -1,7 +1,7 @@
 import * as firebase from 'firebase';
 
 export const login = async (email, pwd) => {
-  return await firebase.auth().signInWithEmailAndPassword(email, password);
+  return await firebase.auth().signInWithEmailAndPassword(email, pwd);
 };
 
 export const logout = async () => {
@@ -9,7 +9,7 @@ export const logout = async () => {
 }
 
 export const createUser = async (email, pwd) => {
-  return await firebase.auth().createUserWithEmailAndPassword(email, password);
+  return await firebase.auth().createUserWithEmailAndPassword(email, pwd);
 };
 
 export const getCurrentUser = () => {
