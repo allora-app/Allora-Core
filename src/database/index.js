@@ -1,5 +1,6 @@
 import * as words from './words';
-import * as courses from './courses';
+// import * as courses from './courses';
 
-export { default } from './initialisation';
-export { words as words, courses as courses };
+export { default as init } from './initialisation';
+export * as courses from './courses';
+export { words as words };
