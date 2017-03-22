@@ -1,4 +1,4 @@
-import { courses as ref } from './references';
+import { courses as ref } from '../references';
 
 const add = course => {
   ref().push(course);
