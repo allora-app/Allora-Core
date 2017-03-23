@@ -1,15 +1,5 @@
-import { courses as ref } from '../references';
+import * as crud from './crud';
 
-const add = course => {
-  ref().push(course);
+export default {
+  ...crud,
 };
-
-const update = (key, course) => {
-  ref().child(key).update(course);
-};
-
-const remove = key => {
-  ref().child(key).remove();
-};
-
-export { add, update, remove };
