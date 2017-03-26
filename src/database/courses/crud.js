@@ -1,6 +1,6 @@
 import { courses as ref } from '../references';
 
-const add = (name) => {
+const add = name => {
   ref().push({
     name,
     added: Date.now(),

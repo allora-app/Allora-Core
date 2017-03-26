@@ -5,5 +5,5 @@ import * as riddle from './riddle';
 export default {
   ...crud,
   ...subscription,
-  ...riddle
+  ...riddle,
 };
