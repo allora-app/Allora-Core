@@ -8,11 +8,11 @@
     "prettier": "prettier --write --bracket-spacing --single-quote --no-jsx-bracket-same-line --trailing-comma all --print-width 80 \"src/**/!(third_party)/*.js\""
   },
   "dependencies": {
-    "firebase": "^3.7.0"
+    "firebase": "^3.7.3"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^3.16.1",
+    "babel-eslint": "^7.2.1",
+    "eslint": "^3.18.0",
     "prettier": "^0.21.0"
   }
 }
